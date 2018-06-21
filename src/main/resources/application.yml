@@ -1,6 +1,10 @@
 server:
   port: 9000
+
 eureka:
+  server:
+#  https://github.com/spring-cloud/spring-cloud-netflix/issues/1844
+    enable-self-preservation: false
   instance:
     hostname: localhost
   client:
