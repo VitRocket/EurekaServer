@@ -1,2 +1,2 @@
-# EurekaService
+# EurekaServer
 Service Registration and Discovery
